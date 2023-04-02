@@ -5,7 +5,7 @@ Creates Gitub repository\
 Assigns permission\
 Sets default branch\
 Sets branch protection rules\
-Sets environments for Github Actions\
+Sets environments for Github Actions
 
 Define the following environment variables
 
@@ -13,8 +13,8 @@ Define the following environment variables
 
 export TF_CLOUD_ORGANIZATION=\
 export TFE_TOKEN=\
-export TF_WORKSPACE=\
+export TF_WORKSPACE=
 
 ### Github
 export GITHUB_TOKEN=\
-export GITHUB_OWNER=\
+export GITHUB_OWNER=
