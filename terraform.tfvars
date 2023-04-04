@@ -30,5 +30,14 @@ repos = [
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
+  },
+
+  {
+    name        = "tf-azure-networking"
+    description = "Create repo using terraform code"
+    gitignore     = "Terraform"
+    environments = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
   }
 ]
