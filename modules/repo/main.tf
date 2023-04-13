@@ -63,7 +63,7 @@ resource "github_branch_default" "default" {
 resource "github_branch_protection" "main" {
   repository_id = github_repository.repo.node_id
   pattern       = "main"
-  enforce_admins = true
+  enforce_admins = false
 
   required_pull_request_reviews {
     dismiss_stale_reviews           = true
@@ -77,7 +77,7 @@ resource "github_branch_protection" "main" {
 resource "github_branch_protection" "develop" {
   repository_id = github_repository.repo.node_id
   pattern       = "develop"
-  enforce_admins = true
+  enforce_admins = false
 
   required_pull_request_reviews {
     dismiss_stale_reviews           = true
@@ -91,7 +91,7 @@ resource "github_branch_protection" "develop" {
 resource "github_branch_protection" "uat" {
   repository_id = github_repository.repo.node_id
   pattern       = "uat"
-  enforce_admins = true
+  enforce_admins = false
 
   required_pull_request_reviews {
     dismiss_stale_reviews           = true

@@ -16,7 +16,7 @@
 repos = [
   {
     name        = "create-git-repo"
-    description = "Create repo using terraform code"
+    description = "Create git repo using terraform"
     gitignore     = "Terraform"
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
@@ -25,7 +25,7 @@ repos = [
 
    {
     name        = "tfc-management"
-    description = "Create repo using terraform code"
+    description = "Manage terraform cloud workspace using terraform"
     gitignore     = "Terraform"
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
@@ -34,8 +34,17 @@ repos = [
 
   {
     name        = "tf-azure-networking"
-    description = "Create repo using terraform code"
+    description = "Setup Azure core networking using terraform"
     gitignore     = "Terraform"
+    environments = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
+  },
+
+  {
+    name        = "sh-azure-base-setup"
+    description = "Create SP, RG, assign role to RG using shell script"
+    gitignore     = "Go"
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
