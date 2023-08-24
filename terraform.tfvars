@@ -48,5 +48,15 @@ repos = [
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
+  },
+
+  {
+    name        = "ps-azure-base-setup"
+    description = "Create SP, RG, assign role to RG using shell script"
+    gitignore     = "Go"
+    environments = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
   }
+
 ]
