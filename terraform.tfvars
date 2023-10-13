@@ -57,6 +57,15 @@ repos = [
     environments = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
+  },
+  {
+    name        = "py-utilities"
+    description = "general utilities using python"
+    gitignore     = "Python"
+    environments = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
   }
+
 
 ]

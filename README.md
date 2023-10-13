@@ -17,7 +17,8 @@ export TF_WORKSPACE=
 
 ### Github
 export GITHUB_TOKEN=\
-export GITHUB_OWNER=
+export GITHUB_OWNER=\
+owner is the name of the github organization
 
 2. Update the content of terraform.tfvars file, always add the new repo to be created at bottom.
 3. Terraform plan
