@@ -9,7 +9,7 @@ terraform {
 
   required_version = ">= 1.4"
 
-   cloud {}
+  cloud {}
 }
 
 # Configure the GitHub Provider, requires env variable GITHUB_TOKEN

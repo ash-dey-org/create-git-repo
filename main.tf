@@ -7,9 +7,9 @@ module "git-repo" {
   }
 
   # org_name = var.org_name
-  repo_name          = each.value.name
-  repo_description   = each.value.description
-  gitignore          = each.value.gitignore
+  repo_name        = each.value.name
+  repo_description = each.value.description
+  gitignore        = each.value.gitignore
 
   environments = each.value.environments
 

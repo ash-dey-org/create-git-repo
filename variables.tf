@@ -9,10 +9,10 @@ variable "org_name" {
 
 variable "repos" {
   type = list(object({
-    name        = string
-    description = string
-    gitignore = string
-    environments = list(string)
+    name          = string
+    description   = string
+    gitignore     = string
+    environments  = list(string)
     dev_team_name = string
     ops_team_name = string
   }))

@@ -15,57 +15,66 @@
 
 repos = [
   {
-    name        = "create-git-repo"
-    description = "Create git repo using terraform"
+    name          = "create-git-repo"
+    description   = "Create git repo using terraform"
     gitignore     = "Terraform"
-    environments = ["dev", "tst", "uat", "prd"]
-    dev_team_name = "dev-team"
-    ops_team_name = "ops-team"
-  },
-
-   {
-    name        = "tfc-management"
-    description = "Manage terraform cloud workspace using terraform"
-    gitignore     = "Terraform"
-    environments = ["dev", "tst", "uat", "prd"]
+    environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
   },
 
   {
-    name        = "tf-azure-networking"
-    description = "Setup Azure core networking using terraform"
+    name          = "tfc-management"
+    description   = "Manage terraform cloud workspace using terraform"
     gitignore     = "Terraform"
-    environments = ["dev", "tst", "uat", "prd"]
+    environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
   },
 
   {
-    name        = "sh-azure-base-setup"
-    description = "Create SP, RG, assign role to RG using shell script"
+    name          = "tf-azure-networking"
+    description   = "Setup Azure core networking using terraform"
+    gitignore     = "Terraform"
+    environments  = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
+  },
+
+  {
+    name          = "sh-azure-base-setup"
+    description   = "Create SP, RG, assign role to RG using shell script"
     gitignore     = "Go"
-    environments = ["dev", "tst", "uat", "prd"]
+    environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
   },
 
   {
-    name        = "ps-azure-base-setup"
-    description = "Create SP, RG, assign role to RG using shell script"
+    name          = "ps-azure-base-setup"
+    description   = "Create SP, RG, assign role to RG using shell script"
     gitignore     = "Go"
-    environments = ["dev", "tst", "uat", "prd"]
+    environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
   },
   {
-    name        = "py-utilities"
-    description = "general utilities using python"
+    name          = "py-utilities"
+    description   = "general utilities using python"
     gitignore     = "Python"
-    environments = ["dev", "tst", "uat", "prd"]
+    environments  = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
+  },
+  {
+    name          = "tf-azure-shared-core"
+    description   = "shared core utilities"
+    gitignore     = "Terraform"
+    environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
   }
+
 
 
 ]
