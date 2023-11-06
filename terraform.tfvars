@@ -73,8 +73,22 @@ repos = [
     environments  = ["dev", "tst", "uat", "prd"]
     dev_team_name = "dev-team"
     ops_team_name = "ops-team"
+  },
+  {
+    name          = "tf-defender-report"
+    description   = "infrastructure for defender report"
+    gitignore     = "Terraform"
+    environments  = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
+  },
+  {
+    name          = "tf-azdevops-management"
+    description   = "create azure devops project using terraform"
+    gitignore     = "Terraform"
+    environments  = ["dev", "tst", "uat", "prd"]
+    dev_team_name = "dev-team"
+    ops_team_name = "ops-team"
   }
-
-
 
 ]
